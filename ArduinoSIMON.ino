@@ -255,8 +255,6 @@ void justlost(){
 }
 
 void setup() {
-  // put your setup code here, to run once:
-
   // initialize the LED pins as an output:
   pinMode(ledPinRed, OUTPUT);
   pinMode(ledPinGreen, OUTPUT);
@@ -276,9 +274,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  // read the state of the pushbutton value:
-
   if(gameState == PREGAME){
     pregame();
   } else if(gameState == INGAME){
